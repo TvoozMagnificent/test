@@ -5,7 +5,7 @@
 Understand the behavior of functions as they approach specific points or infinity. Key topics:
 - [:Limit Definition](#Limit-Definition)
 - [:Continuity](#Continuity)
-- [:L'Hôpital's Rule](#LHopitals-Rule)
+- [:L'Hôpital's Rule](#LHpitals-Rule)
 
 ## Limit Definition
 
