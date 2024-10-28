@@ -17,7 +17,7 @@ A function is continuous if it has no gaps or jumps. Check if a function is cont
 
 ## L'Hôpital's Rule
 
-Use L'Hôpital's Rule to evaluate indeterminate forms like 0/0 or ∞/∞ by differentiating the numerator and the denominator.
+Use L'Hôpital's Rule to evaluate indeterminate forms like \( \frac{0}{0} \) or \( \frac{\infty}{\infty} \) by differentiating the numerator and the denominator.
 
 ## Differentiation
 
@@ -28,15 +28,15 @@ Differentiation finds the rate of change. Key applications:
 
 ## Power Rule
 
-For any function f(x) = xⁿ, the derivative f'(x) is nx^(n-1). This rule makes finding derivatives of powers of x straightforward.
+For any function \( f(x) = x^n \), the derivative \( f'(x) \) is \( nx^{n-1} \). This rule makes finding derivatives of powers of \( x \) straightforward.
 
 ## Product Rule
 
-When differentiating a product of functions, use (f\*g)' = f'\*g + f\*g'.
+When differentiating a product of functions, use \( (f \cdot g)' = f' \cdot g + f \cdot g' \).
 
 ## Chain Rule
 
-The Chain Rule is essential for functions composed of other functions: (f(g(x)))' = f'(g(x)) \* g'(x).
+The Chain Rule is essential for functions composed of other functions: \( (f(g(x)))' = f'(g(x)) \cdot g'(x) \).
 
 ## Integration
 
@@ -47,15 +47,15 @@ Integration finds accumulated values like areas under curves. Key techniques:
 
 ## Fundamental Theorem of Calculus
 
-The theorem that links differentiation and integration, allowing us to evaluate definite integrals as F(b) - F(a).
+The theorem that links differentiation and integration, allowing us to evaluate definite integrals as \( F(b) - F(a) \).
 
 ## U-Substitution
 
-Use U-substitution to simplify integrals by changing variables to match basic integration forms.
+Use \( u \)-substitution to simplify integrals by changing variables to match basic integration forms.
 
 ## Integration by Parts
 
-When faced with the integral of a product, use ∫udv = uv - ∫vdu.
+When faced with the integral of a product, use \( \int u \, dv = uv - \int v \, du \).
 
 ## Series and Sequences
 
@@ -70,8 +70,11 @@ Learn when a series approaches a finite value as terms increase. Useful tests in
 
 ## Taylor Series
 
-Express functions as an infinite sum of derivatives at a single point: f(x) ≈ Σ(f^n(a)/n!)\*(x-a)^n.
+Express functions as an infinite sum of derivatives at a single point: 
+\[
+f(x) \approx \sum \frac{f^{(n)}(a)}{n!} \cdot (x - a)^n
+\]
 
 ## Power Series
 
-A power series is a series of the form Σcₙ(x-a)ⁿ, representing functions as infinite polynomials.
+A power series is a series of the form \( \sum c_n (x - a)^n \), representing functions as infinite polynomials.
