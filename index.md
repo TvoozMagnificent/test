@@ -3,24 +3,14 @@
 
 <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.min.js"></script>
 
-A [differential equation] is an equation that involves one or more [functions] and their [derivatives]. It describes how a particular [quantity] changes in relation to other quantities. In simpler terms, it expresses a relationship between the rate of change of a [variable] and the variable itself.
+A [differential equation] is an equation that involves [functions] and their [derivatives]. It expresses a relationship between a [dependent variable] and one or more of its [independent variables], where the rate of change of the dependent variable is connected to the current state of the dependent variable itself or other variables. The primary goal is often to find the [function(s)] that satisfy the equation.
 
-For example, a simple [differential equation] could look like:
+In a [differential equation], the [derivative] represents how a [function] changes with respect to the [independent variable]. For example, a simple first-order [differential equation] might take the form:
 
-$$ \frac{dy}{dx} = 3x $$
+$$ \frac{dy}{dx} = f(x, y) $$
 
-This equation states that the [derivative] of the function $y$ with respect to $x$ (the rate of change of $y$ with respect to $x$) is equal to 3 times $x$.
+where $$ \frac{dy}{dx} $$ is the derivative of the dependent variable $$ y $$ with respect to the independent variable $$ x $$, and $$ f(x, y) $$ is some function of $$ x $$ and $$ y $$.
 
-There are two main types of [differential equations]:
+The solution to a [differential equation] is typically a [function] that satisfies the equation, meaning that if you plug it into the equation, both sides will balance. [Ordinary differential equations] (ODEs) involve only one independent variable, while [partial differential equations] (PDEs) involve multiple independent variables.
 
-1. **[Ordinary differential equations]** ([ODEs]): These involve functions of a single independent variable, like $y(x)$, and their [derivatives]. For example:
-
-   $$ \frac{dy}{dx} + y = 0 $$
-
-2. **[Partial differential equations]** ([PDEs]): These involve functions of multiple independent variables, like $u(x, t)$, and their [partial derivatives]. For example:
-
-   $$ \frac{\partial u}{\partial t} = D \frac{\partial^2 u}{\partial x^2} $$
-
-A [solution] to a differential equation is a function (or a set of functions) that satisfies the equation when substituted into it. Solving a differential equation involves finding this [function] or [set of functions].
-
-Differential equations are used extensively in fields like [physics], [engineering], [economics], and [biology] to model dynamic systems, such as the motion of objects, population growth, or the spread of diseases. The [solutions] can often describe how a system behaves over time or space, depending on the context.
+For instance, in physics, [differential equations] are often used to model the behavior of physical systems, such as the motion of objects, heat distribution, or the flow of electricity. The solution of such equations can provide [models] for how the system evolves over time or space.
